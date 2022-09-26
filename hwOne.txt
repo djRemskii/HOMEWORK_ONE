@@ -1,3 +1,6 @@
 Hello, my name is Jeremy/Remi and I am working on hw1
 
 Hello again, this is djRemskii testing out changes from the Ubuntu VirualBox :)
+
+“Hello, our names are “Jeremy Ong” and “Doan Mong” and we are working on 
+hw3 together”
