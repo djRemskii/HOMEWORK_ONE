@@ -8,6 +8,8 @@ int main(void){
     //defined in employeeSearchOne.c 
     PtrToEmployee searchEmployeeByNumber(const Employee table[], int sizeTable, long numberToFind); 
     PtrToEmployee searchEmployeeByName(const Employee table[], int sizeTable, char * nameToFind); 
+    PtrToEmployee searchEmployeeByPhoneNumber(const Employee table[], int sizeTable, char * phoneNumberToFind); 
+    PtrToEmployee searchEmployeeBySalary(const Employee table[], int sizeTable, double salaryToFind); 
 
     //defined in employeeTable.c 
     extern Employee EmployeeTable[];     
@@ -30,7 +32,6 @@ int main(void){
         printf("Employee Tony Bobcat is in record %d\n", matchPtr - EmployeeTable); 
     else 
         printf("Employee Tony Bobcat is NOT found in the record\n"); 
-
 
 
 
